@@ -11,9 +11,6 @@ const IndexComponent = () => {
         <meta name="description" content="index" />
         <meta name="keywords" content="index" />
       </Head>
-      <video autoPlay loop style={{ width: '500px', height: '500px' }} >
-        <source src="./components/image/video/headervideo.mp4"></source>
-        </video>
     </div>
   );
 };
