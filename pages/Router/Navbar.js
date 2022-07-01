@@ -55,8 +55,8 @@ export default function NavbarComponent(props) {
                           key={item.name}
                           href={item.href}
                           className={classNames(
-                            item.current ? `bg-gray-900 text-white` : `text-${props.text} hover:bg-gray-500`,
-                            'px-3 py-2 rounded-md text-sm font-medium'
+                            item.current ? `bg-gray-900 text-white no-underline` : `no-underline text-${props.text} hover:bg-gray-500`,
+                            'px-3 py-2 rounded-md text-sm font-medium no-underline'
                           )}
                           aria-current={item.current ? 'page' : undefined}
                         >
@@ -136,8 +136,8 @@ export default function NavbarComponent(props) {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? `bg-gray-900 text-white` : `text-${props.text} hover:bg-gray-500 hover:text-white`,
-                    'block px-3 py-2 rounded-md text-base font-medium'
+                    item.current ? `bg-gray-900 text-white no-underline` : `no-underline text-${props.text} hover:bg-gray-500 hover:text-white`,
+                    'block px-3 py-2 rounded-md text-base font-medium no-underline'
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
